@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <title>HTML CSS</title>
+    <style>
+      .powderblue-button {
+        background-color: powderblue;
+        color: black;
+        border-color: black;
+      }
+      .crimson-button {
+        background-color: crimson;
+      }
+    </style>
   </head>
 
-
   <body>
-
-    <button>Hello</button>
-
+    <button class="powderblue-button">
+      Hello
+    </button>
     <p>
-      Paragraph of text, Do not click
-      <button title = "DO NOT!"
-      onclick="
-      alert('You Do Not Listen Do You?!');
-      ">
+      Paragraph of text, Do not click 
+    <button title="DO NOT!" class="crimson-button"
+    onclick="
+      alert('You Do Not Listen Do You?');
+    ">
       This
     </button>
     </p>
